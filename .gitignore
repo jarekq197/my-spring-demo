@@ -108,3 +108,5 @@ fabric.properties
 /mvnw
 /.idea/
 /.mvn/wrapper/maven-wrapper.jar
+/.mvn/
+/.mvn/wrapper/maven-wrapper.properties
