@@ -12,6 +12,15 @@ public class MyController {
         return "welcome";
     }
 
+    @GetMapping("/me")
+    public String me(Model model){
+        model.addAttribute("name", "Jarek");
+        model.addAttribute("surname", "K.");
+
+
+        return "me";
+    }
+
     @GetMapping("/car")
     public String myFavoriteCar(Model model){
         model.addAttribute("brand", "FSO");
